@@ -1,0 +1,33 @@
+{
+  "name": "karma-should-sinon",
+  "description": "Sinon for Karma",
+  "keywords": [
+    "karma",
+    "karma-plugin",
+    "sinon",
+    "mock"
+  ],
+  "version": "1.0.0",
+  "main": "./index.js",
+  "author": {
+    "name": "Ettore Del Negro",
+    "email": "ettore@ettoredelnegro.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ettoredn/karma-should-sinon.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/ettoredn/karma-should-sinon/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "karma": ">=0.10",
+    "should-sinon": "*"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
